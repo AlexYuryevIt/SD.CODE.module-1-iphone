@@ -1,0 +1,659 @@
+.page {
+    margin: 0 auto;
+    width: 1500px;
+}
+
+.new-era {
+    background-color: #000;
+    height: 913px;
+}
+
+.new-era_container {
+    position: relative;
+}
+
+.new-era_header {
+    margin: 0 auto;
+    padding-top: 112px;
+    text-align: center;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 140px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    z-index: 1;
+}
+
+.new-era_text {
+    margin: 0 auto;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #F5F5F5;
+    z-index: 1;
+}
+
+.new-era_img {
+    position: absolute;
+    background-image: url('../resources/new-era-splash.svg');
+    background-size: cover;
+    width: 635px;
+    height: 396px;
+    z-index: 2;
+    top: 0;
+    left: 450px;
+}
+
+.new-era_iphone {
+    position: absolute;
+    background-image: url('../resources/new-era-iphone.png');
+    background-size: cover;
+    width: 1300px;
+    height: 743px;
+    top: 395px;
+    left: 100px;
+}
+
+.about {
+    display: flex;
+    flex-direction: column;
+    margin: 237px auto 0;
+    padding-bottom: 237px;
+    max-width: 967px;
+}
+
+
+.about_header {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 75px;
+    text-transform: uppercase;
+    text-align: center;
+    color: #262525;
+}
+
+.about_subheader {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    text-align: center;
+    color: #262525;
+}
+
+.about_btn {
+    margin: 66px auto 0;
+    width: 55px;
+    height: 55px;
+    background-image: url('../resources/choice-btn.svg');
+    background-size: cover;
+    background-color: transparent;
+    border: none;
+}
+
+
+.about_text {
+    margin-top: 12px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 157.4%;
+    text-align: center;
+    color: #262525;
+}
+
+.iphone_shell {
+    position: relative;
+    background-color: #000;
+    height: 842px;
+}
+
+.iphone_img {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    left: 120px;
+    top: -162px;
+    background-image: url('../resources/iPhone_13_Pro_Black_svg.svg');
+    width: 1261px;
+    height: 625px;
+    z-index: 1;
+}
+
+.iphone_description {
+    margin: 88px auto 0;
+    max-width: 941px;
+    align-self: center;
+    text-align: center;
+}
+
+.iphone_header {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.iphone_subheader {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    text-align: center;
+    color: #F5F5F5;
+}
+
+.iphone_text {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 125%;
+    text-align: center;
+    color: #7A7A7A;
+}
+
+.iphone_top-layer {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background-image: url('../resources/iphone-wave.svg');
+    width: 1500px;
+    height: 1019px;
+    z-index: 2;
+}
+
+
+
+.choise_container {
+    position: relative;
+    padding-bottom: 61px;
+}
+
+.choise_header {
+    margin: 82px auto 0;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 38px;
+    text-align: center;
+    color: #292929;
+}
+
+.back-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 97px;
+    top: 315px;
+    width: 64px;
+    height: 64px;
+    background-color: transparent;
+    border: none;
+    transform: scale(200%);
+}
+
+.next-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    right: 97px;
+    top: 315px;
+    width: 64px;
+    height: 64px;
+    background-color: transparent;
+    border: none;
+    transform: scale(200%);
+}
+
+.btn_img {
+    width: 64px;
+    height: 64px;
+    
+}
+
+.iphone-list {
+    margin-top: 57px;
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    grid-template-rows: auto;
+    justify-content: center;
+    list-style: none;
+    gap: 10px;
+    padding: 0;
+}
+
+.iphone-list_item {
+    width: 384px;
+}
+
+.iphone-list_desription {
+    display: flex;
+    flex-direction: column;
+    width: 384px;
+    height: 237px;
+    background-color: #000;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+
+.iphone-list_header {
+    margin: 24px 0 0 24px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    text-align: left;
+    color: #FFFFFF;
+}
+
+.iphone-list_text {
+    margin: 5px 0 0 24px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    text-align: left;
+    text-transform: capitalize;
+    color: #FFFFFF;
+}
+
+.iphone-list_price {
+    margin: 20px 0 0 24px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    text-transform: capitalize;
+    color: #F1F8FF;
+}
+
+.iphone-list_btn {
+    margin: 16px auto 0;
+    padding: 16px 32px;
+    gap: 10px;
+    width: 336px;
+    height: 66px;
+    background: #FFFFFF;
+    border-radius: 30px;
+}
+
+.iphone-list_btn:hover {
+    cursor: pointer;
+}
+
+.iphone-list_link {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    color: #000000;
+    text-decoration: none;
+}
+
+.slider {
+    display: block;
+    margin: 33px auto 0;
+}
+
+.video {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 1500px;
+    padding: 80px 120px;
+    box-sizing: border-box;
+    background-color: #1B1B1B;
+}
+
+.video_container {
+    width: 993px;
+}
+
+.video_header {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 38px;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    text-align: center;
+    margin: 0 auto;
+    max-width: 607px;
+}
+
+.text-color {
+    color: #CAFC01;
+}
+
+.video_text {
+    max-width: 607px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 125%;
+    text-align: center;
+    margin: 16px auto 0;
+    color: #F5F5F5;
+}
+
+.screenshot_container {
+    position: relative;
+    margin: 55px auto 0;
+}
+
+.play_btn {
+    position: absolute;
+    left: 446px;
+    top: 165px;
+    width: 100px;
+    height: 100px;
+    background-color: transparent;
+    border: none;
+    z-index: 2;
+    cursor: pointer;
+}
+
+.wave {
+    position: absolute;
+    bottom: -106px;
+    left: 0;
+    width: 1500px;
+    height: 108px;
+    z-index: 2;
+}
+
+.order {
+    margin: 30px auto 0;
+    height: 581px;
+}
+
+.order_container {
+    position: relative;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    width: 1440px;
+    height: 506px;
+    box-sizing: border-box;
+    padding: 160px 120px;
+}
+
+.order_bg {
+    position: absolute;
+    left: -30px;
+    top: -192px;
+    z-index: -1;
+}
+
+.order_image {
+    width: 674px;
+    height: 320px;
+    z-index: 1;
+    border-radius: 34px;
+}
+
+.order_wrapper {
+    margin-left: 80px;
+    width: 486px;
+    text-align: left;
+}
+
+.order_header {
+    margin: 0 auto;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    color: #1B1B1B;
+}
+
+.order_text {
+    margin-top: 20px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #727272;
+    max-width: 419px;
+    text-align: left;
+}
+
+.input {
+    position: relative;
+}
+
+.input_text {
+    box-sizing: border-box;
+    padding-left: 24px;
+    width: 486px;
+    height: 65px;
+    border: 3px solid #C8C8C8;
+    border-radius: 32px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: left;
+    letter-spacing: 0.02em;
+    color: #545454;
+}
+
+.input_button {
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    width: 151px;
+    height: 49px;
+    background: #CAFC01;
+    border-radius: 32px;
+    border: none;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #1B1B1B;
+
+    cursor: pointer;
+}
+
+.footer {
+    background-color: #1D1C1C;
+    width: 100%;
+}
+
+.footer_wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer_description {
+    margin: 84px 0 95px 105px;
+    width: 320px;
+    height: 164px;
+}
+
+.footer_header {
+    margin: 0 auto;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 23px;
+    text-transform: capitalize;
+    color: #FFFFFF;
+}
+
+.footer_text {
+    margin: 14px auto 0;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: 0.02em;
+    color: #C8C8C8;
+}
+
+.footer_social {
+    display: grid;
+    grid-template-columns: repeat(5, auto);
+    grid-template-rows: auto;
+    
+}
+
+.footer_social_list {
+    list-style: none;
+}
+
+.footer_links {
+    margin: 68px 98px 68px 0;
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    grid-template-rows: auto;
+    gap: 24px;
+}
+
+.company_heading {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    font-feature-settings: 'liga' off;
+    color: #EFEEEF;
+}
+
+.company_list {
+    list-style: none;
+    padding: 0;
+    display: grid;
+    gap: 12px;
+    width: 160px;
+}
+
+.company_link {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: 0.02em;
+    color: #C8C8C8;
+    text-decoration: none;
+}
+
+.support_heading {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    font-feature-settings: 'liga' off;
+    color: #EFEEEF;
+}
+
+.company_support {
+    list-style: none;
+    padding: 0;
+    display: grid;
+    gap: 12px;
+    width: 160px;
+}
+
+.support_link {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: 0.02em;
+    color: #C8C8C8;
+    text-decoration: none;
+}
+
+.footer_links {
+    display: flex;
+    flex-direction: row;
+}
+
+.footer_input-wrapper {
+    width: 220px;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer_input-heading {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    font-feature-settings: 'liga' off;
+    color: #EFEEEF;
+}
+
+.input_footer {
+    position: relative;
+}
+
+.input_text_footer {
+    box-sizing: border-box;
+    padding-left: 24px;
+    width: 100%;
+    height: 53px;
+    border-color: transparent;
+    border-radius: 32px;
+    background-color: #545454;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: left;
+    letter-spacing: 0.02em;
+    color: #C8C8C8;
+}
+
+.input_button_footer {
+    position: absolute;
+    top: 17px;
+    right: 31px;
+    width: 18px;
+    height: 18px;
+    background-color: transparent;
+    border: none;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #1B1B1B;
+    cursor: pointer;
+}
